@@ -1,0 +1,24 @@
+{
+    "$schema": "https://themost-framework.github.io/themost/models/2018/2/schema.json",
+    "@id": "http://schema.org/Enumeration",
+    "name": "Enumeration",
+    "description": "Lists or enumerations—for example, a list of cuisines or music genres, etc.",
+    "title": "Enumerations",
+    "hidden": true,
+    "abstract": false,
+    "sealed": false,
+    "inherits": "Intangible",
+    "version": "0.1",
+    "fields": [],
+    "privileges": [
+        {
+            "mask": 15,
+            "type": "global"
+        },
+        {
+            "mask": 15,
+            "type": "global",
+            "account": "Administrators"
+        }
+    ]
+}
